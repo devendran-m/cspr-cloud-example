@@ -13,14 +13,20 @@ This README provides detailed steps to clone the repository, set up the environm
 1. **Register on CSPR.build Console**
     
     - Sign up at [CSPR Console](https://console.cspr.build/sign-up) to create a CSPR.cloud access token.
+
 2. **Clone the Repository**
     
     ```bash
     git clone <repository-url>
     cd <repository-name>
     ```
+
+3. **Initialise**
+   - Initialise 
     
-3. **Install Dependencies**
+    `npm init`     
+
+4. **Install Dependencies**
     
     - Install the following npm packages:
         
@@ -28,10 +34,10 @@ This README provides detailed steps to clone the repository, set up the environm
         npm install @open-rpc/client-js casper-js-sdk
         ```
         
-4. **Create `index.js`**
+5. **Create `index.js`**
     
     - Create an `index.js` file and copy the code from the SDK examples available at [SDK Examples](https://docs.cspr.cloud/casper-node-api/connecting-with-an-sdk#sdk-examples).
-5. **Set Up the Environment File**
+6. **Set Up the Environment File**
     
     - Create a `.env` file to manage environment parameters.
         
@@ -49,10 +55,10 @@ This README provides detailed steps to clone the repository, set up the environm
         AUTH_KEY=YOUR_AUTH_KEY
         ```
         
-6. **Specify Endpoints**
+7. **Specify Endpoints**
     
     - Refer to the [Endpoints Documentation](https://docs.cspr.cloud/casper-node-api/connecting-with-an-sdk#endpoints) for additional endpoint details.
-7. **Update the Code**
+8. **Update the Code**
     
     - Use the appropriate endpoint and authorization key in `index.js`. For example:
         
@@ -66,7 +72,7 @@ This README provides detailed steps to clone the repository, set up the environm
         });
         ```
         
-8. **Query a Deploy**
+9.  **Query a Deploy**
     
     - Use the Integration Network to query a deploy:
         1. Go to [Integration Deploys](https://integration.cspr.live/deploys).
@@ -78,7 +84,7 @@ This README provides detailed steps to clone the repository, set up the environm
             ```
             
         4. You can replace `getDeploy` with other RPC methods and pass the required parameters to fetch results from the respective RPC endpoints. Refer to the [RPC Methods Documentation](https://docs.cspr.cloud/) for more details.
-9. **Run the Program**
+10. **Run the Program**
     
     - Execute the program:
         
@@ -86,7 +92,7 @@ This README provides detailed steps to clone the repository, set up the environm
         node index.js
         ```
         
-10. **View the Output**
+11. **View the Output**
     
     - The output will be displayed in the terminal. Example output:
         
