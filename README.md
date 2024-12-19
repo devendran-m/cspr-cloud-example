@@ -13,6 +13,10 @@ This README provides detailed steps to clone the repository, set up the environm
 1. **Register on CSPR.build Console**
     
     - Sign up at [CSPR Console](https://console.cspr.build/sign-up) to create a CSPR.cloud access token.
+    - For instance, this how your Dashboard will look like after you have successfully signed up and created a CSPR.cloud access token;
+
+    ![CSPR Cloud Access Key](./images/csprcloudkey.png)
+
 
 2. **Clone the Repository**
     
